@@ -73,19 +73,21 @@ The submitted photographs show these display states:
 **Interpretation note:** The photo displays `BP:40`. BP commonly means blood pressure, but this project's stated purpose is heart-rate and SpO₂ monitoring. Check the firmware label and variable before documenting this as BPM. A `DATA SENT` LCD message indicates the firmware's status message; verify the ThingSpeak channel independently to confirm server-side receipt.
 
 
-## 📊 ThingSpeak Cloud Output
+## ☁️ ThingSpeak IoT Cloud Output
 
-PulseGuard uploads heart-rate and oxygen-saturation readings to the ThingSpeak IoT cloud platform through the ESP-01 Wi-Fi module. The cloud dashboard can be used to visualize uploaded readings over time.
+PulseGuard uses the ESP-01 Wi-Fi module to send heart-rate (BPM) and oxygen-saturation (SpO₂) readings to the ThingSpeak IoT cloud platform for remote monitoring and visualization.
 
-### ThingSpeak Dashboard
+### 3. ThingSpeak Dashboard
 
-![ThingSpeak Dashboard](hardware/Thingspeak_dashboard.png)
+![ThingSpeak Dashboard](hardware/Thingspeak%20dashboard.png)
 
-### Heart Rate and Spo2 Monitoring
+### 4. Heart Rate and SpO₂ Graphs
 
-![ThingSpeak Heart Rate Output](hardware/Thingspeak_BPM_and_SPO2.png)
+![ThingSpeak BPM and SpO2](hardware/Thingspeak%20BPM%20and%20SPO2.png)
 
-![ThingSpeak SpO2 Output](hardware/thingspeak_HeartRate_and_Spo2.png)
+### 5. ThingSpeak Heart Rate and SpO₂ Monitoring
+
+![ThingSpeak Heart Rate and SpO2](hardware/thingspeak%20HeartRate%20and%20spo2.png)
 
 
 ## Block Diagram
