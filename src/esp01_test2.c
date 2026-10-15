@@ -23,7 +23,7 @@ extern void strlcd(s8 *str);
    Replace this with your own API key
    ------------------------------------------------- */
 
-#define THINGSPEAK_API_KEY   "OL1TTDIUBVLMN367"
+#define THINGSPEAK_API_KEY   ""
 
 /* -------------------------------------------------
    Function prototypes
